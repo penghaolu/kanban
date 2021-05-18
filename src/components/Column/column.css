@@ -1,0 +1,19 @@
+.column-wrapper {
+  margin: 6px;
+  border: 1px solid lightgray;
+  border-radius: 2px;
+  width: 393px;
+  flex: 0 0 auto;
+  flex-direction: column;
+  height: 600px;
+  overflow-y: scroll;
+}
+.column-title {
+  padding: 8px;
+  font-size: 30px;
+  font-weight: 700;
+  background-color: thistle;
+}
+.cards-wrapper {
+  padding: 8px;
+}

@@ -1,0 +1,48 @@
+.card-wrapper {
+  width: 275px;
+  height: 125px;
+  margin: 15px;
+  border-radius: 10px;
+  box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.5);
+  text-align: left;
+  padding: 20px 35px 20px 35px;
+  position: relative;
+  background-color: white;
+}
+.company-wrapper {
+  display: flex;
+}
+.logo {
+  width: 20%;
+}
+.company-info-wrapper {
+  position: relative;
+  margin-left: 10px;
+  width: 80%;
+}
+.company-info {
+  position: absolute;
+  top: 50%;
+  transform: translate(0%, -50%);
+}
+.company-name {
+  font-weight: 600;
+  font-size: 14px;
+}
+.location {
+  font-size: 10px;
+}
+.info-wrapper {
+  margin-top: 8px;
+}
+.title {
+  font-weight: 700;
+  font-size: 20px;
+}
+.date {
+  font-style: italic;
+  font-weight: 500;
+  font-size: 9px;
+  color: #666666;
+  margin-top: 2px;
+}
