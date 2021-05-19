@@ -66,7 +66,6 @@ function ModalComp(props) {
         </div>
         <div className="modal-title">{props.card.title}</div>
         <div>Stage: {props.card.stage}</div>
-        {console.log(props.card.stage)}
         <div className="notes-wrapper">
           <label className="notes-label">Notes:</label>
           <textarea
