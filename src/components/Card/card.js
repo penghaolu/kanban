@@ -21,6 +21,7 @@ function Card(props) {
         <div className="title">{props.card.title}</div>
         <div className="date">Applied on {props.card.date}</div>
       </div>
+      <div>Stage: {props.card.stage}</div>
       <Tag type={props.card.type} />
     </div>
   );

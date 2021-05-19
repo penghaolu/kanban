@@ -63,6 +63,18 @@ function App() {
         [newDest.id]: newDest,
       };
       setColumns(newColumns);
+      const newCard = {
+        ...cards[draggableId],
+        stage: columns[destination.droppableId].title,
+      };
+      console.log(newCard);
+      console.log(draggableId);
+      const newCards = {
+        ...cards,
+        [draggableId]: newCard,
+      };
+      console.log(newCards);
+      setCards(newCards);
       return;
     }
   };

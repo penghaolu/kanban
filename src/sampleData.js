@@ -9,6 +9,7 @@ const sampleData = {
       type: "Internship",
       date: "3/20/2021",
       notes: "",
+      stage: "Applied",
     },
     "card-spotify-2": {
       id: "card-spotify-2",
@@ -19,6 +20,7 @@ const sampleData = {
       type: "Internship",
       date: "3/20/2022",
       notes: "",
+      stage: "Applied",
     },
     "card-spotify-3": {
       id: "card-spotify-3",
@@ -29,6 +31,7 @@ const sampleData = {
       type: "Internship",
       date: "3/20/2023",
       notes: "",
+      stage: "Applied",
     },
     "card-spotify-4": {
       id: "card-spotify-4",
@@ -39,6 +42,7 @@ const sampleData = {
       type: "Internship",
       date: "3/20/2024",
       notes: "",
+      stage: "Applied",
     },
   },
   columns: {
