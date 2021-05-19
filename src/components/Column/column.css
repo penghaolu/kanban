@@ -1,12 +1,14 @@
 .column-wrapper {
   margin: 6px;
-  border: 1px solid lightgray;
+  border: 2px solid #878e9b;
   border-radius: 2px;
   width: 393px;
   flex: 0 0 auto;
   flex-direction: column;
   height: 600px;
   overflow-y: scroll;
+  background-color: white;
+  box-shadow: 0 0 5px 0 rgba(59, 130, 246, 0.5);
 }
 .column-title {
   position: sticky;
@@ -15,7 +17,9 @@
   padding: 8px;
   font-size: 30px;
   font-weight: 700;
-  background-color: thistle;
+  color: #242b66;
+  background-color: #eff6ff;
+  border-bottom: 2px solid #878e9b;
 }
 .cards-wrapper {
   padding: 8px;
